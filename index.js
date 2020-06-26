@@ -21,5 +21,5 @@ app.use(passport.session());
 require('./routes/authRoutes')(app);
 
 //Heroku can inject env port
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9024;
 app.listen(PORT); 
